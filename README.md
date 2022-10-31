@@ -2,7 +2,7 @@
 Early Detection of Chronic Kidney Disease using Machine Learning
 
 
-TEAM MEMBERS:
+TEAM MEMBERS:\n
 MIRUTHULA J
 PRAJEETHA R
 SATHYA SHREE R
