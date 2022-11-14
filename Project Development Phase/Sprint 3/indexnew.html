@@ -19,10 +19,10 @@
         <center><p style="font-size: 15px;">Please fill out the below details</p></center>
         <form name="passdata" action="/predict" method="post">
             <center style="padding-bottom: 10px;">
-                <input type="text" id="blood_urea" name="blood_urea" placeholder="Enter your blood urea" />
+                <input type="text" id="blood_urea" name="blood_urea" placeholder="Enter your blood urea" autocomplete="off"/>
             </center>
             <center style="padding-bottom: 10px;">
-                <input type="text" id="blood_glucose_random" name="blood_glucose_random" placeholder="Enter your blood glucose random"/>
+                <input type="text" id="blood_glucose_random" name="blood_glucose_random" placeholder="Enter your blood glucose random" autocomplete="off"/>
             </center>
             <center style="padding-bottom: 10px;">
                 <select name="anemia" id="anemia">
@@ -71,11 +71,5 @@
             </center>
         </form>
     </div>
-
-    <script>
-        function predict() {
-            
-        }
-    </script>
 </body>
 </html>
